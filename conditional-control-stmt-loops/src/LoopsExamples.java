@@ -22,17 +22,17 @@ public class LoopsExamples {
         }
 
         System.out.println("While Loop example:");
-        int i=10;//init
+        int i=0;//init
         while (i>=1 /*condition checking*/){
             System.out.println("i = " + i);
-            i--;
+            i--;//dec or inc
         }
 
         System.out.println("Do-While Loop example:");
-        int j=10;//init
+        int j=0;//init
         do {
             System.out.println("j = " + j);
-            j--;
+            j--;//dec or inc
         }while (j>=1 /*condition checking*/);
 
     }
