@@ -21,6 +21,9 @@
 15. static methods and static variables.
 16. OOPs paradigms -
     1. Inheritance and Composition
+        1. learn more on super
+        2. up casting and down casting
+        3. composition
     2. Encapsulation
     3. Polymorphism
     4. Abstraction
