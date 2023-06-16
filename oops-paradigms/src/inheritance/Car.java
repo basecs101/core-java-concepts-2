@@ -11,7 +11,12 @@ public class Car {
     int cc;
     boolean isPetrol;
 
+    public Car(){
+        System.out.println(this.getClass().getName() + " called");
+    }
+
     public Car(String brandName, String yearOfMan, int cc, boolean isPetrol) {
+        System.out.println(this.getClass().getName() + " called");
         this.brandName = brandName;
         this.yearOfMan = yearOfMan;
         this.cc = cc;

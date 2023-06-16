@@ -12,6 +12,7 @@ public class HondaCity extends Car{
 
     public HondaCity(boolean hasSunRoof, boolean isAutoMatic) {
         super("Honda", "2023",1300,true);
+        System.out.println(this.getClass().getName() + " called");
         this.hasSunRoof = hasSunRoof;
         this.isAutoMatic = isAutoMatic;
     }
@@ -32,6 +33,9 @@ public class HondaCity extends Car{
         isAutoMatic = autoMatic;
     }
 
+
+    //toString represents object, this means it prints object's fields
+    //if toString method is not overridden then it will print ClassName@HashCode
     @Override
     public String toString() {
         return "HondaCity{" +
