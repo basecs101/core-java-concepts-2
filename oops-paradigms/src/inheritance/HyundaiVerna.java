@@ -1,5 +1,7 @@
 package inheritance;
 
+//extends -> Is A Relationship
+
 //Child class or derived class or Sub class
 public class HyundaiVerna extends Car{
 //    String brandName;

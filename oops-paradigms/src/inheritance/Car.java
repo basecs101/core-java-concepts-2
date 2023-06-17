@@ -1,5 +1,7 @@
 package inheritance;
 
+import java.util.Arrays;
+
 //Parent clas or Base class or Super class
 /*
 Inheritance reduces duplicate code  and basic properties of similar classes can be extracted in a common
@@ -10,6 +12,8 @@ public class Car {
     String yearOfMan;
     int cc;
     boolean isPetrol;
+    Door[] doors;
+
 
     public Car(){
         System.out.println(this.getClass().getName() + " called");
@@ -21,6 +25,14 @@ public class Car {
         this.yearOfMan = yearOfMan;
         this.cc = cc;
         this.isPetrol = isPetrol;
+    }
+
+    public Car(String brandName, String yearOfMan, int cc, boolean isPetrol, Door[] doors) {
+        this.brandName = brandName;
+        this.yearOfMan = yearOfMan;
+        this.cc = cc;
+        this.isPetrol = isPetrol;
+        this.doors = doors;
     }
 
     public String getBrandName() {
@@ -55,6 +67,14 @@ public class Car {
         isPetrol = petrol;
     }
 
+    public Door[] getDoors() {
+        return doors;
+    }
+
+    public void setDoors(Door[] doors) {
+        this.doors = doors;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
@@ -62,6 +82,7 @@ public class Car {
                 ", yearOfMan='" + yearOfMan + '\'' +
                 ", cc=" + cc +
                 ", isPetrol=" + isPetrol +
+                ", doors=" + Arrays.toString(doors) +
                 '}';
     }
 }

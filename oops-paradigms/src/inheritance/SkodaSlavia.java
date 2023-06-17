@@ -1,5 +1,6 @@
 package inheritance;
 
+//extends -> Is A Relationship
 public class SkodaSlavia extends Car{
     //String brandName;
 //    String yearOfMan;
