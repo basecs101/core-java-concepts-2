@@ -27,4 +27,7 @@
     2. Encapsulation
     3. Polymorphism
     4. Abstraction
+       1. Abstract classes
+       2. Interfaces
+17. SOLID principles
     

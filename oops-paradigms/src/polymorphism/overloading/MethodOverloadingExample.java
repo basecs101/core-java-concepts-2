@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.overloading;
 /*
     Many form of same item/thing
     Single method can have many forms. -> Poly morphism
