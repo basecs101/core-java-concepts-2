@@ -30,4 +30,5 @@
        1. Abstract classes
        2. Interfaces
 17. SOLID principles
+18. Equals and hashcode
     
