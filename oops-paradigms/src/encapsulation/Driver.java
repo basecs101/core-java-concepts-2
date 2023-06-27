@@ -5,6 +5,7 @@ public class Driver {
         Employee employee = new Employee("Vikram","Integral Ad Science",27,101);
         employee.setSalary(0);
         System.out.println(employee);
+        System.out.println(employee.getName());
         employee.setSalary(220000);
         System.out.println(employee);
     }

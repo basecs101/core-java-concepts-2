@@ -31,4 +31,6 @@
        2. Interfaces
 17. SOLID principles
 18. Equals and hashcode
+qq : If you are given an interface, but you want more functionality then what to do?
+
     
