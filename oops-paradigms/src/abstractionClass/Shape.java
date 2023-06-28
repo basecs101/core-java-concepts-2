@@ -1,4 +1,4 @@
-package abstraction2;
+package abstractionClass;
 
 // Abstraction - hiding implementation details
 // e.g. If you have seen circuit board, you know on-off functionality, and you don't bother about

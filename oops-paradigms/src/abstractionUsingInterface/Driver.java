@@ -1,4 +1,4 @@
-package abstraction1;
+package abstractionUsingInterface;
 
 public class Driver {
     public static void main(String[] args) {
@@ -12,6 +12,11 @@ public class Driver {
         System.out.println("Square area : " + square.calculateArea());
         rectangle.draw();
         System.out.println("Rectangle area : " + rectangle.calculateArea());
+
+        Shape2 triangle = new Triangle(10,10);
+        triangle.draw();
+        triangle.calculateArea();
+        triangle.color();
 
     }
 }

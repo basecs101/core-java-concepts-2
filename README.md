@@ -29,8 +29,9 @@
     4. Abstraction
        1. Abstract classes
        2. Interfaces
+       3. multiple inheritance
+       4. How one interface extends another interface
 17. SOLID principles
 18. Equals and hashcode
-qq : If you are given an interface, but you want more functionality then what to do?
 
     

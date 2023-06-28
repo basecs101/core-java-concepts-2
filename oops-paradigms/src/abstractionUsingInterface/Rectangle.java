@@ -1,6 +1,6 @@
-package abstraction2;
+package abstractionUsingInterface;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
 
     float length;
     float breadth;

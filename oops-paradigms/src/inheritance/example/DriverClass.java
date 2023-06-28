@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.example;
 
 public class DriverClass {
     public static void main(String[] args) {

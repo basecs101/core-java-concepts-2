@@ -1,4 +1,4 @@
-package abstraction2;
+package abstractionClass;
 
 public class Driver {
     public static void main(String[] args) {

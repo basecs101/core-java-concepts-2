@@ -1,4 +1,4 @@
-package abstraction2;
+package abstractionClass;
 
 public class Circle extends Shape {
     float radius;

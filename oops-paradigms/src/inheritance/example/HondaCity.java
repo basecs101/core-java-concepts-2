@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.example;
 
 import java.util.Arrays;
 

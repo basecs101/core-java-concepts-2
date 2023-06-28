@@ -1,4 +1,4 @@
-package abstraction1;
+package abstractionUsingInterface;
 
 public class Circle implements Shape {
     float radius;

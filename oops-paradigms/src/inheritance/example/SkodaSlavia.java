@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.example;
 
 //extends -> Is A Relationship
 public class SkodaSlavia extends Car{

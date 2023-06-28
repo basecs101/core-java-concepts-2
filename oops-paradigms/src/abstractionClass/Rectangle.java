@@ -1,6 +1,6 @@
-package abstraction1;
+package abstractionClass;
 
-public class Rectangle implements Shape {
+public class Rectangle extends Shape {
 
     float length;
     float breadth;

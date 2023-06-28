@@ -1,6 +1,6 @@
-package abstraction2;
+package abstractionUsingInterface;
 
-public class Square extends Shape {
+public class Square implements Shape{
 
     float side;
 
