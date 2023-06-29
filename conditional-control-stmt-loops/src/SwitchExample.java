@@ -5,10 +5,10 @@ public class SwitchExample {
         //Read some strings or user input from console
         //read-write - input and output
         System.out.println("Please enter an input(day of week): ");//output
-        Scanner scanner = new Scanner(System.in);//input
+        Scanner scanner = new Scanner(System.in);//scans the console.
         String dayOfWeek = scanner.next();//input
 
-        switch (dayOfWeek){
+        switch (dayOfWeek) {
             case "Monday" :
                 System.out.println("Mondays are boring.");
                 break;
