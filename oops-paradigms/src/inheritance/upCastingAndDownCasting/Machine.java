@@ -4,7 +4,7 @@ Class is blueprint for objects, for a single we can create n of objects.
  */
 public class Machine {
     Machine(){
-        System.out.println("");
+        System.out.println("Machine no arg constructor");
     }
     void startUp(){
 
