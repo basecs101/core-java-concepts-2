@@ -22,7 +22,7 @@
 16. OOPs paradigms -
     1. Inheritance and Composition
         1. learn more on super
-        2. up casting and down casting
+        2. [up casting and down casting](https://medium.com/javarevisited/what-is-up-casting-and-down-casting-in-java-latest-ca114ef76a5f)
         3. composition
     2. Encapsulation
     3. Polymorphism
