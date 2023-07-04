@@ -1,4 +1,4 @@
-package inheritance.typesofinheritance.multiple;
+package inheritance.typesofinheritance.diamondproblem;
 
 //Java doesn't support multiple inheritance through extends keyword but it is allowed through interface.
 

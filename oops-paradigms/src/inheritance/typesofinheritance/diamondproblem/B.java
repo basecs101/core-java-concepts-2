@@ -1,4 +1,4 @@
-package inheritance.typesofinheritance.multiple;
+package inheritance.typesofinheritance.diamondproblem;
 
 public class B extends A {
     @Override

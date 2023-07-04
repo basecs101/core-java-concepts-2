@@ -11,6 +11,7 @@ package abstractionClass;
 public abstract class Shape {
 
     abstract void draw();//abstract method, access level is default
+    //the above line is method signature
 
     public abstract double calculateArea();//abstract method
 

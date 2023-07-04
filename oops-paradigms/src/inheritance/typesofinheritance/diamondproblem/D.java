@@ -1,4 +1,4 @@
-package inheritance.typesofinheritance.multiple;
+package inheritance.typesofinheritance.diamondproblem;
 
 
 /*

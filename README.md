@@ -24,6 +24,7 @@
         1. learn more on super
         2. [up casting and down casting](https://medium.com/javarevisited/what-is-up-casting-and-down-casting-in-java-latest-ca114ef76a5f)
         3. composition
+        4. Types of inheritance 
     2. Encapsulation
     3. Polymorphism
     4. Abstraction
@@ -31,7 +32,14 @@
        2. Interfaces
        3. multiple inheritance
        4. How one interface extends another interface
-17. SOLID principles
-18. Equals and hashcode
+17. [Mutable and Immutable class](https://medium.com/javarevisited/do-you-know-immutable-class-in-java-why-string-is-immutable-dc18b0cec4b9)
+    1. What is mutable and immutable
+    2. How to create immutable class
+    3. String class and why it is immutable
+    4. Two ways to create string object
+    5. [What is String Pool](https://medium.com/javarevisited/what-does-string-pool-mean-in-java-996f0554e1dc)
+18. [String, StringBuilder and StringBuffer](https://levelup.gitconnected.com/string-stringbuilder-and-stringbuffer-a-complete-guide-5ddd083a2ad5) - what are they and how they different and when to use one.
+19. SOLID principles
+20. Equals and hashcode
 
     

@@ -8,6 +8,7 @@ import java.util.Random;
 //for each field has public getter and setter
 //Now class is like protected shield.
 //The object's fields are not directly accessible to other classes of same package or outside package.
+//Encapsulation is also called data hiding
 public class Employee {
 
     private String name;
@@ -41,6 +42,11 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
+        if (name == null){
+            System.out.println("Name cannot be null");
+        } else {
+            this.name = name;
+        }
     }
 
     public String getCompany() {
@@ -72,10 +78,9 @@ public class Employee {
     }
 
     public void setSalary(int salary) {
-        if (salary > 10000)
-            this.salary = salary;
-        else
-            this.salary = 10000;
+        this.salary = salary >= 10000 ? salary : 10000;
+        //ternary operator is similar to if then else
+        //condition ? exp1 : exp2
     }
 
     @Override
