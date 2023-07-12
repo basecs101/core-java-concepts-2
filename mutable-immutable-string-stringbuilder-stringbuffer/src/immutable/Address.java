@@ -1,5 +1,6 @@
 package immutable;
 
+//POJO ->Plain old Java Object
 public class Address {
     int lineNum;
     String streetName;

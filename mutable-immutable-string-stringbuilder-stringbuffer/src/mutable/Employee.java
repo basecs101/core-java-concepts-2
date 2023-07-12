@@ -52,7 +52,7 @@ public class Employee {
                 "id=" + id +
                 ", salary=" + salary +
                 ", name='" + name + '\'' +
-                ", address=" + address +
+                ", address=" + address.toString() +
                 '}';
     }
 }

@@ -5,9 +5,11 @@ public class Driver {
 
         Address address = new Address(101,"Park Street","Pune",411028);
 
-        Employee employee = new Employee(100100,120000,"Vikram",address);
+        Employee employee = new Employee(100,120000,"Vikram",address);
 
-        employee.id = 200000;//employee object's id has changed, hence employee object is mutable
-
+//        System.out.println(employee.toString());
+        System.out.println(employee);
+        employee.id = 200;//employee object's id has changed, hence employee object is mutable
+        System.out.println(employee);
     }
 }
