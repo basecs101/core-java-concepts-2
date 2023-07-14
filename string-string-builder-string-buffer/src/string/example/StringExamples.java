@@ -29,6 +29,19 @@ public class StringExamples {
         name = name.concat("Gupta");///this creates new object in SCP and heap both.
         System.out.println(name);
 
+        String moin = new String("Moin");
+        //moin variable
+        //"Moin" two string objects are created, one in heap and other SCP
+        //moin variable points object in heap
 
+        moin = moin.concat("Mulani");
+        //a new String object will be created, Heap and SCP, "MoinMulani" and
+        //moin will point to this new string object in the heap
+
+        String moin2 = "MoinMulani";//moin2 points to SCP object
+        System.out.println("moin == moin2 : " + (moin == moin2));
+
+        String moin3 = "Moin" + "Mulani";//moin3 points to SCP object
+        System.out.println("moin2 == moin3 : " + (moin2 == moin3));
     }
 }
