@@ -41,6 +41,9 @@ public class StringExamples {
         String moin2 = "MoinMulani";//moin2 points to SCP object
         System.out.println("moin == moin2 : " + (moin == moin2));
 
+        String moin4 = "Moin";
+
+//        String moin3 = moin4 + "Mulani";//moin3 points to SCP object
         String moin3 = "Moin" + "Mulani";//moin3 points to SCP object
         System.out.println("moin2 == moin3 : " + (moin2 == moin3));
     }
