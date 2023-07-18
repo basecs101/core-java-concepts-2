@@ -37,7 +37,7 @@ public enum Direction {
     //constructor //this cons automatically made private by java compiler.
     Direction(String msg) {
         this.msg = msg;
-        System.out.println("Msg from constructor " + msg);
+        System.out.println("Msg from constructor " + this.hashCode() + " " + msg);
     }
 
     //getters and setters for field msg.
