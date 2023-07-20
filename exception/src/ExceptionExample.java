@@ -8,6 +8,9 @@
     //2. Runtime time exception - these exceptions are thrown when program is executed.
 
 /*
+    Exception is an abnormal condition in the program that causes the program to halt at point where the exception
+    occurred but the exception can be handled and we can recover the application from exception.
+
     In exception hierarchy Top level class is Throwable
     Exception class extends Throwable
 
