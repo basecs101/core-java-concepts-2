@@ -118,7 +118,7 @@
 
     5. Method Reference
 29. [Is Java Pass by value or pass by reference](https://medium.com/@basecs101/is-java-pass-by-value-or-pass-by-reference-73a73b0c2234)
-30. Primitives and their Wrapper classes. Auto boxing and Auto unboxing.
+30. [Primitives and their Wrapper classes. Auto boxing and Auto unboxing.](https://github.com/basecs101/java-concepts/blob/main/wrapper-classes-boxing-unboxing/src/WrapperClassesExamples.java)
 31. equals() and hashcode() methods for any user defined class. Also explain toString() method.
 32. SOLID
 
