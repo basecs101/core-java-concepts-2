@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenericsExamplesBeforeJava5 {
+public class ListExamplesBeforeJava5 {
     public static void main(String[] args) {
         List list = new ArrayList();
 
