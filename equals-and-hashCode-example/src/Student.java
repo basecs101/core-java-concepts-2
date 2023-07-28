@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Student {
+public class Student{
     String name;
     int id;
     int age;
