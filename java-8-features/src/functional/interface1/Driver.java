@@ -1,5 +1,11 @@
 package functional.interface1;
 
+class Test  implements ExampleInterface{
+    @Override
+    public int randomCalculate(int a, int b) {
+        return 0;
+    }
+}
 public class Driver {
     public static void main(String[] args) {
         ExampleInterface instanceUsingAC = new ExampleInterface() {
