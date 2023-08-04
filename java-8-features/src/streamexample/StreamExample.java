@@ -4,20 +4,14 @@ package streamexample;
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-class Person {
-    int age;
-    int id;
-    String name;
-}
+
 
 class Student {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Student(String name, int age) {
         this.name = name;
@@ -47,6 +41,12 @@ class Student {
         return Objects.hash(name, age);
     }
 }
+
+//Predicate -> test the given condition using test method
+//Function -> Transforms the given stream into new stream by using apply method
+//Consumer -> Consumer consumes an item using accept method and doesn't return a value
+//Supplier -> Supplier supplies/return a value using get method.
+
 public class StreamExample {
 
     public static void main(String[] args) {
@@ -117,8 +117,10 @@ public class StreamExample {
 
         //Lambda exp are nothing but they provide implementation for abstract method of func interface
         //and at the same time lambda returns an object of func interface.
+
+
         Predicate<Student> predicate = s -> s.getAge() > 24;//predicate does checking for given condition
-        Function<Student, String> mapper = s1 -> s1.getName();//function applies the transformation and returns a result
+        Function<Student, String> mapper = Student::getName;//function applies the transformation and returns a result
         //filter -> filter out stream elements
         //map -> transforms one stream to another stream
 //        System.out.println(studentStream
@@ -131,7 +133,7 @@ public class StreamExample {
         for (String name : studentStream
                 .filter(predicate)
                 .map(mapper)
-                .collect(Collectors.toList())) {
+                .toList()) {
             System.out.println(name);
         }
         //if stream contains 5 elements then, for each element entire stream pipeline
