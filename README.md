@@ -121,6 +121,5 @@
 30. [Primitives and their Wrapper classes. Auto boxing and Auto unboxing.](https://github.com/basecs101/java-concepts/blob/main/wrapper-classes-boxing-unboxing/src/WrapperClassesExamples.java)
 31. equals() and hashcode() methods for any user defined class. Also explain toString() method.
 32. SOLID
-
-
-#### [Sample program for practice](https://www.programiz.com/java-programming/examples)
+33. [Core Java Interview Questions](https://www.interviewbit.com/java-interview-questions/)
+34. [Sample Program for Practice](https://www.programiz.com/java-programming/examples)
